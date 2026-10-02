@@ -1,0 +1,30 @@
+header {
+    background-color: #2C9E5F;
+    color: white;
+    border: 10px solid #2C9E5F;
+    padding: 100px;
+}
+
+#subtitulo {
+    padding-bottom: 100px;
+}
+
+.menu {
+    background-color: #2C9E5F;
+    color: white;
+    border: 10px solid #2C9E5F;
+    padding-right: 100px;
+}
+
+body {
+    background-color: #84E0AD;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+}
+
+#titulo_conteudo {
+    color: green;
+}
