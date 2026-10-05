@@ -1,4 +1,10 @@
+@font-face {
+    font-family: 'iDroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
 header {
+    font-family: 'iDroid', sans-serif;
     background-color: #2C9E5F;
     color: white;
     border: 10px solid #2C9E5F;
@@ -20,9 +26,17 @@ body {
     background-color: #84E0AD;
 }
 
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
 main {
     background-color: white;
-    margin: auto;
+    margin-bottom: 59px;
+    margin-left: 77px;
+    margin-right: 55px;
+    margin-top: -20px;
 }
 
 #titulo_conteudo {
