@@ -4,12 +4,21 @@
 }
 
 header {
-    font-family: 'iDroid', sans-serif;
-    background-color: #2C9E5F;
+    background-image: linear-gradient(to bottom, #38C175, #24814D);
     color: white;
-    border: 10px solid #2C9E5F;
-    padding: 100px;
+    padding-top: 5px;
+    box-shadow: 2px 2px 2px #1E5738;
 }
+
+header > h1, h2 {
+    text-align: center;
+}
+
+header > button {
+    background-color: #1E5738;
+}
+
+
 
 #subtitulo {
     padding-bottom: 100px;
@@ -37,8 +46,66 @@ main {
     margin-left: 77px;
     margin-right: 55px;
     margin-top: -20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 
-#titulo_conteudo {
+#img1 {
+    margin: auto;
+    padding-left: 150px;
+}
+
+#img2 {
+    margin: auto;
+    padding-left: 150px;
+}
+
+#img3 {
+    margin: auto;
+    padding-left: 350px;
+}
+
+.titulo {
+    font-family: 'iDroid', sans-serif;
     color: green;
+}
+
+footer {
+    background-color: #C5EBD6;
+    margin-bottom: 59px;
+    margin-left: 77px;
+    margin-right: 55px;
+    margin-top: -20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+footer > h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2FA768;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#metade1,
+#metade2 {
+    display: inline-block;
+    width: 49%;
+}
+
+a {
+    color: black;
+}
+
+#site {
+    color: green;
+    text-decoration: none;
 }
