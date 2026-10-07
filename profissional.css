@@ -10,7 +10,7 @@ header {
     box-shadow: 2px 2px 2px #1E5738;
 }
 
-header > h1, h2 {
+header > h1, header > h2 {
     text-align: center;
 }
 
@@ -54,6 +54,7 @@ main {
 #img1 {
     margin: auto;
     padding-left: 150px;
+    
 }
 
 #img2 {
@@ -108,4 +109,14 @@ a {
 #site {
     color: green;
     text-decoration: none;
+}
+
+#creditos {
+    color: white;
+    background-color: #1B5B38;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -38px;
+    margin-left: -15px;
+    margin-right: -15px;
 }
