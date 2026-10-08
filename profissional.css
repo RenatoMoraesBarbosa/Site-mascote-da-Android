@@ -51,20 +51,9 @@ main {
     padding-bottom: 15px;
 }
 
-#img1 {
+img {
+    display: block;
     margin: auto;
-    padding-left: 150px;
-    
-}
-
-#img2 {
-    margin: auto;
-    padding-left: 150px;
-}
-
-#img3 {
-    margin: auto;
-    padding-left: 350px;
 }
 
 .titulo {
@@ -82,7 +71,7 @@ footer {
     border-top-right-radius: 10px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    border: black;
+    border: 1px solid black;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
