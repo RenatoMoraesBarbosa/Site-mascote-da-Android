@@ -61,7 +61,7 @@ img {
     color: green;
 }
 
-footer {
+#links {
     background-color: #C5EBD6;
     margin-bottom: 59px;
     margin-left: 77px;
@@ -77,7 +77,7 @@ footer {
     padding-bottom: 10px;
 }
 
-footer > h1 {
+#links > h1 {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #2FA768;
@@ -100,7 +100,7 @@ a {
     text-decoration: none;
 }
 
-#creditos {
+footer {
     color: white;
     background-color: #1B5B38;
     text-align: center;
