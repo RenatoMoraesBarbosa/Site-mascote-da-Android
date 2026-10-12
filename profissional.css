@@ -56,6 +56,11 @@ img {
     margin: auto;
 }
 
+#video {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
 .titulo {
     font-family: 'iDroid', sans-serif;
     color: green;
