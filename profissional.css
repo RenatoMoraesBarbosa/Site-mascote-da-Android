@@ -14,8 +14,9 @@ header > h1, header > h2 {
     text-align: center;
 }
 
-header > button {
-    background-color: #1E5738;
+header > button.menu:hover {
+    cursor: pointer;
+    background-color: #38C175;
 }
 
 
